@@ -60,16 +60,16 @@ Linear Support Vector MAchine Classifier
 	  "Dexamethasone" and "Lyrica".
 - The review length has no clear effect on drugs ratings.
 - Perform data cleaning, wrangling and feature engineering with
-	# Remove all the hyperlink, html tags, punctuation, Numbers, Symbols, Special Characters,
+	- Remove all the hyperlink, html tags, punctuation, Numbers, Symbols, Special Characters,
 	  space, accented characters an stop words
-	# Decontract text
-	# Tokenize using NLTK's word_tokenize
-	# Make all texts to lowercase
-	# Lemmatization
-	# Text string formation)
-	> Clean Medical Conditions Columns Containing Redundant Information
-	> Remove Any Person Name, Location Name, Organization Name, Date & Time, Money, etc by NER
-	> Remove DataFrame Rows where The Medical Conditions has Only 1 Drug
+	- Decontract text
+	- Tokenize using NLTK's word_tokenize
+	- Make all texts to lowercase
+	- Lemmatization
+	- Text string formation)
+	- Clean Medical Conditions Columns Containing Redundant Information
+	- Remove Any Person Name, Location Name, Organization Name, Date & Time, Money, etc by NER
+	- Remove DataFrame Rows where The Medical Conditions has Only 1 Drug
 - The suitable NGrams for building machine learning model is 2-grams and 4-ngrams.
 - The positive reviews are 70% of the data. This is imbalanced data.
 - The best model is Paassive Aggressive Classifier with 92.75% accuracy.
