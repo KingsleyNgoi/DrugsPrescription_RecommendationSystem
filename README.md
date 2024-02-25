@@ -24,6 +24,7 @@
         <li> <b>Linear Support Vector Machine (LinearSVC)</b>,</li>
         <li> <b>Multinomiaa Naive Bayesian (MNB)</b>,</li>
         <li> <b>Light Gradient Boosting Machine (LGBM)</b>,</li>
+        <li> <b>Passive Aggressive Classifier</b>,</li>
     </ol>
   * Outcome ✅</br>
     - 👉 <mark><b>Recommend the top 5 most useful drugs for each different Medical Conditions</b></mark> by <b><mark>calculated usefulness through python @interact</b></mark>.
@@ -35,8 +36,8 @@
 - `drugsComTest_raw.csv`: the test dataset file.</br>
 
 ## <b>3. | Accuracy of Best Model</b> 🧪
-Linear Support Vector MAchine Classifier
-- Accuracy achieved: 92.75%
+Passive Aggressive Classifier
+- Accuracy achieved: 93.91%
 
 ## <b>4. | Conclusiion </b> 📤
 - In this study respectively,
